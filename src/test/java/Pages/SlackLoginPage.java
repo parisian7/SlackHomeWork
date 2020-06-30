@@ -27,5 +27,7 @@ public class SlackLoginPage {
     @FindBy(xpath = "//button[@id='signin_btn']")
     public WebElement signInButton2;
 
+    @FindBy(xpath = "")
+    public WebElement apple;
 
 }
